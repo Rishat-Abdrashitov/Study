@@ -1,6 +1,18 @@
+.header {
+    margin: 25px;
+    font-size: 150%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 1%;
+}
+.subheader {
+    margin-left: 20px;
+}
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: red;
+    background-color: #88bdbc;
 }
 
 .h1_1 {
@@ -24,7 +36,9 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
-
+li {
+    margin-left: 40px;
+}
 div {
     border-radius: 20px;
     padding: 10px;
@@ -35,7 +49,7 @@ div {
 }
 
 .p1 {
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .p_href {
@@ -53,30 +67,29 @@ div {
     --hover: #3d646d;
 }
 
-.p_href:hover,
-.p_href:focus {
+.p_href:hover, .p_href:focus {  
     color: #ffffff;
     box-shadow: inset -4.5em 0 0 0 var(--hover), inset 4.5em 0 0 0 var(--hover);
 }
 
-img {
+.img_cat {
     margin: auto;
     width: 90%;
-    height: 100%;
+    height: 50%;
     border-radius: 20px;
 }
 
 .cats {
     margin: auto;
     width: 45%;
-    height: 30%;
+    height: 45%;
     border-radius: 20px;
 }
 
 
 
 .content-left {
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* border:2px solid red; */
     display: flex;
     flex-direction: column;
@@ -100,9 +113,95 @@ img {
 }
 
 .content-links {
+    font-size: 150%;
     margin-left: 20%;
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-around;
     width: 60%;
+}
+
+
+/* ТРЕТЬЯ ЛАБА */
+.container {
+    background-color: #88bdbc;
+    padding-left: 45%;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+}
+.squareCat {
+    border-radius: 20px;
+    margin: 20px;
+    width: 220px;
+    height: 220px;
+}
+.container2 {
+    background-color: #88bdbc;
+    padding-left: 45%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.block2 {
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+}
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    background-color: #88bdbc;
+}
+.block3 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+.container4 {
+    background-color: #88bdbc;
+}
+.block4 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border: 5px solid red;
+    position: relative;
+    left: 800px;
+    bottom: 0px;
+    top: 200px;
+    right: 0px;
+}
+.contblock4 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border: 5px solid blue;
+    position: relative;
+    left: 900px;
+    bottom: 0px;
+    top: 100px;
+    right: 0px;
+}
+.blockcont4 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border: 5px solid green;
+    position: relative;
+    left: 1000px;
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+}
+.squareCat2 {
+    border-radius: 20px;
+    position: fixed;
+    top: 80%;
+    left: 85%;
+    right: 0%;
+    bottom: 0%;
 }
